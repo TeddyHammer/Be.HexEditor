@@ -1,6 +1,7 @@
 using System;
 using System.Text;
 using System.IO;
+using System.Collections.Generic;
 
 namespace Be.Windows.Forms
 {
@@ -447,6 +448,8 @@ namespace Be.Windows.Forms
         {
             get { return _readOnly; }
         }
+
+        public List<byte> Bytes => throw new NotImplementedException();
 
         void OnLengthChanged(EventArgs e)
         {

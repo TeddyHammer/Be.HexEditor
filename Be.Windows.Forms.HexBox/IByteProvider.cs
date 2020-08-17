@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 namespace Be.Windows.Forms
 {
@@ -71,5 +72,6 @@ namespace Be.Windows.Forms
 		/// </summary>
 		/// <returns>True, when it´s supported.</returns>
 		bool SupportsDeleteBytes();
+		List<byte> Bytes { get; }
 	}
 }

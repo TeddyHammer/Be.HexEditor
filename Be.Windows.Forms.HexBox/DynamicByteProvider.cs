@@ -147,7 +147,10 @@ namespace Be.Windows.Forms
 				return _bytes.Count;
 			}
 		}
-
+		/// <summary>
+		/// user set's or gets boolen type
+		/// </summary>
+		public bool IsWriteByte { get; set; }
 		/// <summary>
 		/// Returns true
 		/// </summary>

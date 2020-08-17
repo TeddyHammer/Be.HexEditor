@@ -1,6 +1,7 @@
 using System;
 using System.IO;
 using System.Collections;
+using System.Collections.Generic;
 
 namespace Be.Windows.Forms
 {
@@ -195,6 +196,8 @@ namespace Be.Windows.Forms
 				return _fileStream.Length;
 			}
 		}
+
+		public List<byte> Bytes => throw new NotImplementedException();
 
 		/// <summary>
 		/// Writes a byte into write buffer
